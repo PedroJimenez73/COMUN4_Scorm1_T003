@@ -1,0 +1,196 @@
+/* Text */
+
+@mixin main-title {
+    color: $text-color;
+    font-weight: 400;
+    font-family: $title-bold-font;
+    font-size: 18px;
+    text-transform: uppercase;
+    @media (min-width: $from-pc){
+        font-size: 22px;
+    }
+
+}
+
+@mixin title {
+    color: $main-color;
+    font-weight: 400;
+    font-family: $title-bold-font;
+    font-size: 20px;
+    text-transform: uppercase;
+    @media (min-width: $from-pc){
+        font-size: 22px;
+    }
+}
+
+@mixin subtitle {
+    color: $secondary-color;
+    font-weight: 200;
+    font-family: $title-font;
+    font-size: 20px;
+    margin-left: 5px;
+    @media (min-width: $from-pc){
+        font-size: 22px;
+    }
+}
+
+@mixin text {
+    text-align: start;
+    font-family: $text-font;
+    font-size: 18px;
+}
+
+@mixin menu-text {
+    text-align: start;
+    font-family: $text-font;
+    font-size: 16px;
+}
+
+
+@mixin concept-text {
+    text-align: start;
+    font-family: $text-font;
+    font-size: 13px;
+    @media (min-width: $from-tablet){
+        font-size: 16px;
+    }
+    @media (min-width: $from-pc){
+        font-size: 18px;
+    }
+}
+
+/* Structure */
+
+@mixin slide-height {
+    height: calc(100% - 187px);
+    margin-top: 80px;
+    overflow-y: auto;
+    @media (min-width: 348px){
+    height: calc(100% - 145px);
+    }
+}
+
+@mixin general-padding{
+    padding: 30px;
+    @media (min-width: $from-pc){
+    }
+}
+
+
+@mixin general-padding-no-title{
+    padding: 45px 30px 30px;
+    @media (min-width: $from-pc){
+    }
+}
+
+@mixin title-padding{
+    padding: 30px 30px 10px;
+    @media (min-width: $from-pc){
+        padding: 45px 30px 30px;
+    }
+}
+
+@mixin card-padding{
+    padding: 20px 10px;
+    @media (min-width: $from-tablet){
+        padding: 30px;
+    }
+
+    @media (min-width: $from-pc){
+        padding: 50px;
+    }
+}
+
+@mixin lateral-padding{
+    padding: 10px 30px;
+    @media (min-width: $from-pc){
+        padding: 15px 30px;
+    }
+}
+
+@mixin general-margin{
+    margin: 30px;
+    @media (min-width: $from-pc){
+       
+    }
+}
+
+@mixin lateral-margin{
+    margin: 10px 30px;
+    @media (min-width: $from-pc){
+        margin: 15px 30px;
+    }
+}
+
+
+/* Animation */
+
+@mixin animation-fadein{
+    animation: $fade-in;
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+}
+
+@mixin animation-fadein-slow{
+    animation: $fade-in-slow;
+    @keyframes fadein-slow {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+}
+
+
+
+@mixin slidein{
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-direction: alternate;  
+      
+    @keyframes slidein {
+        from {
+            margin-left:100%;
+
+        }
+    
+        to {
+            margin-left:0%;
+        }
+    }
+}
+
+@mixin slidein-left{
+    animation-duration: 2s;
+    animation-name: slidein-left;
+      
+    @keyframes slidein-left {
+        from {
+            margin-left:100%;
+
+        }
+    
+        to {
+            margin-left:0%;
+  
+        }
+    }
+}
+
+@mixin slidein-right{
+    animation-duration: 2s;
+    animation-name: slidein-right;
+      
+    @keyframes slidein-right {
+        from {
+            margin-left:-100%;
+
+        }
+    
+        to {
+            margin-right:0%;
+  
+        }
+    }
+}
+

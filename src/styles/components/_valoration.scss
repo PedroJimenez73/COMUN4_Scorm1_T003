@@ -1,0 +1,65 @@
+.valoration__container{
+  width: 100%;
+  .question__container{
+    margin: 40px 0px 0px;
+  }
+}
+
+.star-rating__container{
+    display: grid;
+    grid-template-columns: 200px auto;
+    align-items: center;
+    width: inherit;
+    .text{
+        text-align: center;
+        padding-bottom: 0px;
+        padding-top:15px;
+    }
+    @media only screen and (orientation: portrait){
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      .text{
+        text-align: left;
+      }
+      .star-rating {
+        padding: 10px 0
+      }
+  }
+}
+
+.star-rating{
+    @include lateral-padding
+}
+
+.star {
+    color: #ccc;
+    cursor: pointer;
+    font-size: 30px;
+    &.selected {
+      color: $main-color;
+    }
+  }
+  
+  .star-rating:hover {
+    .star {
+      color: $main-color;
+    }
+    
+    .star:hover  ~ .star{
+      color: #ccc;
+    }
+  }  
+
+
+  @media (min-width: $from-tablet){
+    .star-rating__container{
+      display: grid;
+      grid-template-columns: 200px auto;
+        width: auto;
+        max-width: 600px;
+        .text{
+            text-align: start;
+        }
+    }
+}

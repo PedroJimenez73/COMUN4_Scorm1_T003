@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2em;
+}
+  
+img {
+    border-style: none;
+}
+
+ol, ul {
+    list-style-type: none;
+}
+  
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+p{
+    padding-bottom: 15px;
+    width: 100%;
+}
+li:first-child{
+    padding-top: 15px;
+}
+
+
+ol li, ul li{
+    list-style-position: inside;
+}
+
+li{
+    padding-bottom: 15px;
+    position: relative;
+}
+
+li:first-child{
+    padding-top: 15px;
+}

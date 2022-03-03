@@ -1,0 +1,29 @@
+.ecuation{
+    padding: 0px 10px 15px;
+    text-align: center;
+    p{
+        padding: 10px 0px;
+    }
+}
+.fraction {
+    display: inline-block;
+    vertical-align: middle; 
+    margin: 0 0.2em 0.4ex;
+    text-align: center;
+    .fraction__bar{
+        display: none;
+    }
+    .fraction__bottom{
+        border-top: thin solid black;
+    }
+}
+.fraction > span {
+    display: block;
+    padding-top: 0.15em;
+}
+
+
+
+.ecuation-inline{
+    font-family: 'Times New Roman', Times, serif;
+}

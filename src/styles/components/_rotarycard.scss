@@ -1,0 +1,96 @@
+.rotary-card__container{
+    background-color: transparent;
+    width: 380px;
+    height: 500px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    // @include general-margin;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.rotary-card{
+    position: relative;
+    height: 100%;
+    text-align: center;
+    transition: transform 2s;
+    transform-style: preserve-3d;
+    &--rotation{
+        transform: rotateY(180deg)
+    }
+
+    &__front{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__back{
+        width: 100%;
+        height: 100%;
+        
+        transform: rotateY(180deg);
+    }
+    &__img{
+        width: 100%;
+        //if the title occupies two lines height: calc(100% - 65px); if the title only occupies one line height: calc(100% - 65px)
+        height: calc(100% - 65px);
+        object-fit: cover;
+        object-position: center;
+
+    }
+    &__title{
+        height: 65px;
+        width: 100%;
+        background-color: $main-color;
+        @include subtitle;
+        margin-left: 0;
+        // padding: 10px;
+        color: $text-inverted-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__text{
+        @include text;
+        @include general-padding;
+    }
+
+    ul {
+        @include general-padding;
+        cursor: pointer;
+
+        li {
+            padding-bottom: 10px;
+            cursor: pointer;
+        }
+    }
+}
+
+.rotary-card__front, .rotary-card__back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    background-color: lightgrey;
+}
+
+
+// @media (min-width: $from-tablet){
+//     .rotary-card__container{
+//         width: 350px;
+//         height: 350px;
+//         border: 1px solid #f1f1f1;
+//         perspective: 1000px;
+//         // @include general-margin;
+//         margin: 15px;
+//     }
+// }
+
+@media (min-width: $from-pc){
+    .rotary-card__container{
+        margin: 20px;
+    }
+}

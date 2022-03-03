@@ -1,0 +1,132 @@
+.timeline{
+    color: $text-inverted-color;
+    padding-bottom:25px;
+    
+    ul{
+        li:first-child {
+            padding-top: 0px;
+        }
+        
+      li{
+        background: $main-color;
+        position: relative;
+        margin: 0 auto;
+        width: 5px;
+        padding-bottom: 40px;
+        list-style-type: none;
+        
+        &:last-child{
+          padding-bottom: 7px;
+          background-color: $background-color;
+        }
+        
+        &:before{
+          content: '';
+          background: $background-color;
+          position: absolute;
+          left: 50%;
+          top: 0;
+          transform: translateX(-50%);
+          -webkit-transform: translateX(-50%);
+          width: 20px;
+          height: 20px;
+          border: 5px solid $main-color;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%;
+          margin-left: 0px;
+        }
+        
+        .hidden {
+          opacity: 0;
+        }
+        
+        .content{
+          background: $main-color; 
+          position: relative;
+          top: 7px;
+          width: $content-width;
+          padding: 20px;
+          
+          .title{
+            color: $text-inverted-color;
+            padding-bottom: 20px;
+            text-align: center;
+          }
+          
+          .text{
+            text-align: start;
+            padding: 10px 30px;
+          }
+          
+          &:before{
+            content: '';
+            background: $main-color;
+            position: absolute;
+            top: 0px;
+            width: 38px;
+            height: 5px;
+          }
+        }
+        
+        &:nth-child(odd) .content {
+          left: 50px;
+          background: $main-color;
+          background: -webkit-linear-gradient(-45deg, $main-color , $main-color);
+          background: linear-gradient(-45deg,  $main-color , $main-color);
+          border-radius:0 .5rem .5rem .5rem;
+        }
+        
+        &:nth-child(odd) .content:before {
+          left: -36px;
+        }
+        
+        &:nth-child(even) .content {
+          left: calc(-#{$content-width} - 45px);
+          background: $main-color;
+          background: -webkit-linear-gradient(45deg, $main-color , $main-color);
+          background: linear-gradient(45deg,  $main-color , $main-color);
+          border-radius:.5rem 0 .5rem .5rem;
+        }
+        
+        &:nth-child(even) .content:before {
+          right: -38px;
+        }
+      }
+    }
+  }
+  
+  
+  @media screen and (max-width: 1020px) {
+    .timeline ul li .content {
+      width: 41vw;
+    }
+    .timeline ul li:nth-child(even) .content {
+      left: calc(-41vw - 45px);
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .timeline ul li {
+      margin-left: 20px;
+      
+      .content {
+        width: calc(100vw - 160px);
+      
+        h2{
+          text-align: initial;
+        }
+      }
+      
+      &:nth-child(even) .content {
+        left: 45px;
+        background: $main-color;
+        background: -webkit-linear-gradient(-45deg, $main-color , $main-color);
+        background: linear-gradient(-45deg,  $main-color , $main-color);
+      }
+      
+      &:nth-child(even) .content:before {
+        left: -33px;
+      }
+    }
+  }

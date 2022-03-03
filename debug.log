@@ -1,0 +1,7 @@
+[1123/141202.299:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1123/214557.339:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1124/112426.035:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1124/181820.990:ERROR:process_reader_win.cc(151)] SuspendThread: Acceso denegado. (0x5)
+[1124/181820.990:ERROR:exception_snapshot_win.cc(99)] thread ID 20104 not found in process
+[1124/181821.005:ERROR:process_reader_win.cc(151)] SuspendThread: Acceso denegado. (0x5)
+[1124/181821.005:ERROR:exception_snapshot_win.cc(99)] thread ID 12788 not found in process

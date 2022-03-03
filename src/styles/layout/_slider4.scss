@@ -1,0 +1,22 @@
+.slider4__container{
+    @include lateral-padding;
+    .slider4__img{
+        @include general-margin;
+        width: calc(100% - 60px);
+        max-width: 600px;
+        align-self: center;
+        
+    }
+
+}
+
+@media (min-width: $from-pc){
+    .slider4__container{
+        .slider4__img{
+            @include lateral-margin;
+            height: 100%;
+            min-width: 300px;
+        }
+    
+    }
+}

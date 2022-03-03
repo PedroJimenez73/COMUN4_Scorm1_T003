@@ -1,0 +1,41 @@
+.link__container{
+    border: $border;
+    position: relative;
+    @include general-margin;
+    @include general-padding;
+    max-width: 1000px;
+}
+
+.link{
+    &__text{
+        @include text;
+        color: $main-color;
+        padding-bottom: 0px;
+        &:hover{
+            color:  $tertiary-color;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        
+    }
+    &__author{
+        @include text;
+        font-size:20px;
+        margin: 20px 0px 0px;
+        text-align: end;
+    }
+    &__img{
+        position: absolute;
+        top: -45px;
+        left: 5px;
+        padding: 0 10px;
+        background-color:$background-color;
+        width: auto;
+        height: 80px;
+        bottom: -55px;
+        right: -10px;
+        padding: 20px 10px;
+        animation: none;
+
+    }
+}

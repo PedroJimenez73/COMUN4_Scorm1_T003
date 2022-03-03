@@ -1,0 +1,20 @@
+
+.slider15__container{
+    @include lateral-padding;
+    .tb-img{
+        width: inherit;
+        &__container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+@media (min-width: $from-tablet){
+    .slider15__container{
+        .tb-img{
+            max-width: 750px;
+        }
+    }
+}

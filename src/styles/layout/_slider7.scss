@@ -1,0 +1,13 @@
+.slider7__container{
+    @include lateral-padding;
+
+    .slider6__text-container{
+
+    }
+}
+
+@media (min-width: $from-pc){
+    .slider7__container{
+
+    }
+}

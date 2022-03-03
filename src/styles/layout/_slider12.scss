@@ -1,0 +1,17 @@
+.slider12__container{
+    @include lateral-padding;
+    
+    .quote__container:nth-child(even){
+        .quote__img{
+            left: auto;
+            right: 5px;
+        }
+    }
+    .slider12__text-container{
+        min-width: 60%;
+    }
+}
+
+@media (min-width: $from-pc){
+    
+}

@@ -1,0 +1,101 @@
+.black{
+    height: calc(100% - 80px);;
+    width: 100vw;
+    position: fixed;
+    z-index: 7;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.7;
+    margin-top:80px;
+    transition: background 1s cubic-bezier(0.77,0.2,0.05,1.0),
+        opacity 1s ease;
+}
+
+.black--closed{
+    overflow: hidden;
+    transition: opacity 0.8s ease;
+}
+
+.menu{
+    display:block;
+    position:fixed;
+    z-index: 99;
+    background-color: $footer-background-color;
+    width: 280px;
+    height: calc(100% - 80px);
+    margin-top: 80px;
+    overflow-y: auto;
+
+}
+
+.menu--opened{
+    transition: opacity 1s ease;
+    transition: transform 1s cubic-bezier(0.77,0.2,0.05,1.0),
+    opacity 0.55s ease;
+    transform: translate(0);
+}
+
+.menu--closed{
+    overflow: hidden;
+    transition: opacity 1s ease;
+    transition: transform 1s cubic-bezier(0.77,0.2,0.05,1.0),
+    opacity 1s ease; 
+    transform: translate(-149%);
+}
+
+.menu__cover{
+    width: 100%;
+    background-image: url(../../img/main-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    
+
+    .cover__title{
+        @include main-title;
+        color: $text-inverted-color;
+        padding: 20px 30px;
+        text-align: center;
+        background-color: rgba(132, 160, 180, 0.6);
+    }
+}
+
+.menu__nav{
+    a:last-child{
+        li{
+            padding-bottom: 30px;
+        }
+       
+    }
+    li{
+        padding: 25px 30px 5px;
+        cursor: pointer;
+        @include menu-text;
+        color: $text-inverted-color;
+        &::before{
+            display: none;
+        }
+        &hover{
+            a:after {
+                content: '>';
+                opacity: 0;
+                transform: translate(-10px, 3px);
+                transition: opacity 1s ease-in-out, transform 200ms ease-in-out;
+            }
+        }
+    }
+   
+}
+
+
+@media (min-width: $from-tablet){
+    .menu__cover{
+        display:none;
+    }
+}

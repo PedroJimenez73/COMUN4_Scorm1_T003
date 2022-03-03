@@ -1,0 +1,46 @@
+/* Colors */
+
+$main-color: #84a0b4;
+$secondary-color: #515F69;
+$tertiary-color: #3E4B52;
+$text-color: #151515; 
+$text-inverted-color: white;
+$title-color: $main-color;
+$background-color: $text-inverted-color;
+$footer-background-color: $main-color;
+
+$blue-gradient-dark:$main-color;
+$blue-gradient-middle-dark: #9bbfd0;
+$blue-gradient-middle-light: lightblue;
+$blue-gradient-light:#c5dfe9;
+
+$content-width: 447px;
+
+/* Fonts */
+
+$title-bold-font: "MontserratBold", Arial, sans-serif;
+$title-font:  "Montserrat", Arial, sans-serif;
+$text-font: "SourceSansPro", Arial, sans-serif;
+
+
+/* Shadow */
+$shadow: 9px 8px 10px rgba(0,0,0,0.06);
+
+
+/* Border */
+$border: solid 1px lightgray;
+
+/* Media queries*/
+
+$from-tablet: 768px;
+$from-pc:1200px;
+
+/* tranistion */
+
+$fade-in: fadein 1s;
+
+$fade-in-slow: fadein 3s;
+
+$quick-transition: all 1s ease-in-out;
+
+$slow-transition: all 2s ease-in-out;

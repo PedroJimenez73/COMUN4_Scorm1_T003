@@ -1,0 +1,100 @@
+
+.postit__button{
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  right: 0px;
+  border: 1px solid $main-color;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(-180deg,  white , #f5f3f4);
+    &--blue{
+      background: $main-color;
+      border-radius: 2px;
+      transition: $slow-transition;
+    }
+
+  img{
+    width: 28px;
+    height: 28px;
+    }
+}
+
+
+.postit{
+  @include animation-fadein;
+  display:block;
+  position:fixed;
+  z-index: 5;
+  top: 112px;
+  width:calc(100vw - 60px);
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.7);
+  background-color: #ffffcc;
+  align-self: center;
+  &--opened{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    right: 5px;    
+    button.postit__close{
+      margin: 1px 1px -7px!important;
+    }
+  }
+  &--closed{
+    @include animation-fadein;
+    display: none;
+    
+  }
+  &__textarea{
+    width: calc(100%);
+    border: none;
+    min-height: 250px;
+    padding: 0 10px 10px;
+    resize: none;
+    background-color: transparent;
+    margin: 0 0 10px;
+    &:focus{
+      outline: none;
+    }
+  }
+  &__close{
+    cursor: pointer;
+    background-color: none;
+    border: none;
+    background-color: transparent;
+    filter: brightness(0%);
+    align-self: flex-end;
+    &:focus{
+      outline: none;
+    }
+  }
+}
+
+
+@media (min-width: $from-tablet){
+ 
+    .postit__button{
+      &:disabled{
+        pointer-events: none;
+        fill: grayscale($color: #000000);
+        opacity: .5;
+      }
+    }
+  
+
+  .postit{
+    right: 40px;
+    width: 360px;
+    //min-height: 360px;
+    &--opened{
+      
+    }
+    &--closed{
+    }
+  }
+}

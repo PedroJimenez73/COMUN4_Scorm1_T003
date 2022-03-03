@@ -1,0 +1,45 @@
+.question__container{
+    border: $border;
+    position: relative;
+    @include general-padding;
+    margin-top: 15px!important;
+    //max-width: 1000px;
+    box-shadow: $shadow;
+    width: 100%
+}
+
+.question{
+    &__text{
+        @include text;
+        font-style: italic;
+        
+    }
+    &__author{
+        @include text;
+        font-size:20px;
+        margin: 20px 0px 0px;
+        text-align: end;
+    }
+    &__img{
+        position: absolute;
+        top: -35px;
+        left: 5px;
+        padding: 0 10px;
+        background-color: $background-color;
+        width: 50px;
+        height: auto;
+        bottom: -55px;
+        right: -10px;
+        padding: 10px 10px;
+        margin-top: 10px;
+        animation: none;
+    }
+}
+
+
+
+@media (min-width: $from-tablet){
+    .question__container{
+        margin: 20px;
+    }
+}

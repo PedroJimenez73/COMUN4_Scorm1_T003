@@ -1,0 +1,13 @@
+.slider22__container{
+    @include lateral-padding;
+}
+
+@media (min-width: $from-pc){
+    .slider22__grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 20px;
+        
+    }
+}

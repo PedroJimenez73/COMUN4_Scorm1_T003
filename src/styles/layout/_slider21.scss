@@ -1,0 +1,23 @@
+.slider21__container{
+    @include lateral-padding;
+    .tb-content{
+        margin: auto;
+    }
+    .tb-img{
+        width: inherit;
+        &__container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+@media (min-width: $from-tablet){
+    .slider21__container{
+        .tb-img{
+            width: auto;
+            max-width: 750px;
+        }
+    }
+}

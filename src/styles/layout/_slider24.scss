@@ -1,0 +1,12 @@
+.slider24__container{
+    @include lateral-padding;
+    
+}
+
+@media (min-width: $from-tablet){
+    .slider24__container{
+        .question__container{
+            min-width: 40%;
+        }
+    }
+}

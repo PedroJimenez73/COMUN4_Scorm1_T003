@@ -1,0 +1,13 @@
+.slider14__container{
+    @include lateral-padding;
+    .question__container:nth-child(even){
+        .question__img{
+            left: auto;
+            right: 5px;
+        }
+    }
+}
+
+@media (min-width: $from-pc){
+    
+}

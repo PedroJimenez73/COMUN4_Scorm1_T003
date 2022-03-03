@@ -1,0 +1,53 @@
+
+.font-img__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    max-width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    @include animation-fadein-slow;
+
+}
+
+.instruction-text{
+    text-align: center;
+    font-family: $text-font;
+    font-size: 16px;
+    font-style: italic;
+    color: $main-color;
+    padding: 30px 10px 10px;
+}
+
+.slider__img, .tb-img{
+    //@include general-margin;
+    width: calc(100%);
+}
+
+@media (min-width: $from-tablet){
+    //.slider__img, 
+    .tb-img{
+    height: 100%;
+    min-width: 350px;
+    margin-bottom: 0px;
+    }
+}
+
+
+@media (min-width: $from-pc){
+    
+.font-img__container{
+
+    align-self: flex-start;
+}
+
+    // .slider__img{
+    // @include lateral-margin;
+
+    // }
+}

@@ -1,0 +1,58 @@
+{
+    "REACT_APP_MULESOFT_API_URL": {
+        "type": "string",
+        "description": "endpoint API",
+        "defaultValue": "https://ucjc-scorm-exp-api-test.de-c1.cloudhub.io/api/v1/",
+        "example": "https://ucjc-scorm-exp-api-test.de-c1.cloudhub.io/api/v1/"
+    },
+    "REACT_APP_SCORM_ID": {
+        "type": "string",
+        "description":"GUID (from Insert GUID | Heath Stewart VSCode Extension), use \"TEST\" prefix in dev",
+        "example": "d9f70d04-f40f-48d2-afc4-48b9e4d681a9"
+    },
+    "REACT_APP_SCORM_DEGREE": {
+        "type": "string",
+        "description": "Oficial UCJC Degree name",
+        "values": [
+            "Grado en Psicología",
+            "Grado en Publicidad Creativa",
+            "..."
+        ],
+        "example": "Grado en Psicología"
+    },
+    "REACT_APP_SCORM_FACULTY": {
+        "type": "string",
+        "description": "Oficial UCJC Faculty name",
+        "values": [
+            "Facultad de Salud",
+            "Facultad de Comunicación y Humanidades",
+            "..."
+        ],
+        "example": "Facultad de Salud"
+    },
+    "REACT_APP_SCORM_AUTHORS": {
+        "type": "string",
+        "description": "SCORM authors, separate with pipe symbol if there is more than one",
+        "example": "Ruth Castillo Gualda | Juan Antonio Valera Calero"
+    },
+    "REACT_APP_SCORM_AUTHORS_EMAIL": {
+        "type": "string",
+        "description": "Email SCORM authors, separate with pipe symbol if there is more than one",
+        "example": "rcastillo@ucjc.edu | jvalera@ucjc.edu"
+    },
+    "REACT_APP_SCORM_PAGES": {
+        "type": "number",
+        "description": "SCORM total pages number",
+        "example": 23
+    },
+    "REACT_APP_SCORM_NAME": {
+        "type": "string",
+        "description": "app version name",
+        "example": "VERSION_3.0"
+    },
+    "REACT_APP_SCORM_VERSION": {
+        "type": "string",
+        "description": "app version",
+        "example": "3.0"
+    }
+}

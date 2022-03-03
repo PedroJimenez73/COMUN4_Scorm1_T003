@@ -1,0 +1,42 @@
+.quote__container{
+    border: $border;
+    position: relative;
+    margin-top: 45px!important;
+    @include general-padding;
+    max-width: 1000px;
+    box-shadow: $shadow;
+}
+
+.quote{
+    &__text{
+        @include text;
+        font-style: italic;
+        
+    }
+    &__author{
+        @include text;
+        font-size:20px;
+        margin: 20px 0px 0px;
+        text-align: end;
+    }
+    &__img{
+        position: absolute;
+        top: -35px;
+        left: 5px;
+        padding: 0 10px;
+        background-color: $background-color;
+        width: 70px;
+        height: 70px;
+        bottom: -55px;
+        right: -10px;
+        padding: 20px 10px;
+        animation: none;
+    }
+}
+
+@media (min-width: $from-tablet){
+    .quote__container{
+        margin: 45px 30px;
+        min-width: 60%;
+    }
+}

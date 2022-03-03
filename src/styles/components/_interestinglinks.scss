@@ -1,0 +1,30 @@
+.il__container{
+    max-width: 1200px;
+    margin: 0px;
+    width: 100%;
+    
+    ul{
+        padding-left: 0px;
+    }
+
+    li{
+        padding: 5px 0px;
+        &:before{
+            content: none;
+            
+        }
+    }
+    .subtitle--il{
+        color: $main-color;
+        font-size: 20px;
+        padding: 15px 0px;
+    }
+
+    .text{
+        padding: 0px 0px 10px;
+        overflow: hidden;
+    }
+    a{
+        color: $text-color;
+    }
+}

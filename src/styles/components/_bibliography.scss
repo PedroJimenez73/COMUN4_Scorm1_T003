@@ -1,0 +1,12 @@
+.bibliography__container{
+    padding-top: 0px;
+    max-width: 1200px;
+    text-align: start;
+    align-self: flex-start;
+    li:first-child{
+        padding-top: 0px;
+    }
+    li:last-child{
+        padding-bottom: 30px;
+    }
+}

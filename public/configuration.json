@@ -1,0 +1,1155 @@
+[
+    {
+        "title": "",
+        "id": 1,
+        "children": [
+            {
+                "key": "dcc0bb00-0203-4c38-accd-994a453ccdd0",
+                "component": "Home",
+                "props": {
+                    "degree": "Grado en Comunicación Audiovisual y Nuevos Medios",
+                    "subject": "Cibercomunicación",
+                    "title": "BULOS Y DESINFORMACIÓN: OTRO ‘VIRUS’ DEL S. XXI",
+                    "credits": "6 ECTS",
+                    "teacher": "Laura Cuesta Cano",
+                    "unitCode": "COMUN4_Scorm1_T003"
+                }
+            }
+        ]
+    },
+    {
+        "title": "Presentación",
+        "id": 2,
+        "features": {
+            "allowAnnotation": true
+        },
+        "children": [
+            {
+                "key": "4ee3bc24-5996-43c4-aa38-eec1e9d17492",
+                "component": "MetaSlide",
+                "props": {
+                    "position": "1/1/1/13",
+                    "slides": [
+                        {
+                            "elements": [
+                                {
+                                    "type": "paragraph",
+                                    "text": "<p>Políticos, instituciones, administraciones, asociaciones, grupos religiosos, ONGs, su jefe, su amigo… ¡hasta tu madre!, en algún momento, ha creado, difundido o ayudado a viralizar una <i>fake news</i> o, como deberíamos decir, un bulo o desinformación.</p> <p>Las noticias falsas no van unidas ni son consecuencia del mal uso de las nuevas tecnologías (ni siquiera son exclusivamente propias del mundo digital), lo mismo que el ‘storytelling’ no es un invento de la comunicación del siglo XXI. ¿Quién no recuerda la magistral dramatización de <i>La Guerra de los Mundos</i> de Wells? El problema ha sido que, gracias a la proliferación de nuevos canales, especialmente los digitales por su accesibilidad y usabilidad, el crecimiento ha sido exponencial.</p>"
+                                }
+                            ]
+                        },
+                        {
+                            "elements": [
+                                {
+                                    "type": "paragraph",
+                                    "text": "<p>A esto se ha unido el propio fin u objetivo de las mismas, que han pasado de lo que podría ser una mera información falsa a auténticas estrategias creadas para, o bien empoderar o, por el contrario, destruir a una persona u organización.</p>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "title": "Mapa conceptual",
+        "id": 3,
+        "className": "p-1",
+        "features": {
+            "allowAnnotation": true
+        },
+        "children": [
+            {
+                "key": "8d55a824-0c29-4614-bf22-557939b34b2b",
+                "component": "Tree",
+                "props": {
+                    "position": "2/1/2/13",
+                    "tree": [
+                        {
+                            "text": "Los bulos y la desinformación",
+                            "children": [
+                                {
+                                    "text": "Fake News vs Bulos",
+                                    "children": [
+                                        {
+                                            "text": "Los grandes casos",
+                                            "children": [
+                                                {
+                                                    "text": "Los bulos actuales"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "Cómo detectar noticias falsas",
+                                    "children": [
+                                        {
+                                            "text": "Recuerda: antes de hacer ‘clic’"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "El fact-checking",
+                                    "children": [
+                                        {
+                                            "text": "¿Quién verifica a las verificadoras?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "title": "Bulos y desinformación: otro ‘virus’ del s. XXI",
+        "id": 4,
+        "className": "p-1",
+        "features": {
+            "allowAnnotation": true,
+            "allowHighlight": true
+        },
+        "children": [
+            {
+                "key": "4624c932-db9d-43a7-8320-40dfecff8c4e",
+                "component": "MultiDiv",
+                "props": {
+                    "position": "1/1/1/7",
+                    "children": [
+                        {
+                            "type": "paragraph",
+                            "text": "<p>Vivimos en un mundo hiperconectado donde la comunicación se ha democratizado y ahora cada ciudadano se puede convertir, con su ética (y muchas veces carente de ella), en un ciberperiodista que crea, difunde o viraliza noticias por sus redes sociales y canales de mensajería instantánea, sin contrastar, verificar ni evaluar la veracidad de esa información.</p>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "<p>Además, estamos inmersos en una <a data-glossary-id=\"3\">infoxicación</a> total, donde en apenas 60 segundos,  41,6 millones de mensajes son enviados en WhatsApp y Facebook Messenger, se realizan 3,8 millones de búsquedas en Google, se ven 4,5 millones de vídeos en Youtube y se envían 188 millones de mails. Con tal cantidad ingente de documentación e información, ¿podemos, como meros espectadores, diferenciar lo que es verdad de lo que es mentira? Podemos y debemos.</p>"
+                        }
+                    ]
+                }
+            },
+            {
+                "key": "f737a8bb-76a3-4448-9ef8-7c75d7a5844a",
+                "component": "FontImage",
+                "props": {
+                    "position": "1/7/1/13",
+                    "linkimage": "",
+                    "definition": "",
+                    "linkpage": "",
+                    "image": "public/img/COMUN4_Scorm1_Im2.jpg",
+                    "text": ""
+                }
+            }
+        ]
+    },
+    {
+        "title": "Bulos y desinformación: otro ‘virus’ del s. XXI",
+        "id": 5,
+        "className": "p-1",
+        "children": [
+            {
+                "key": "6c6fc1c4-3382-45ca-85af-255f6360bde9",
+                "component": "RadioQuizz",
+                "props": {
+                    "position": "1/1/1/13",
+                    "enunciate": "¿Quiénes deben ser los responsables de luchar contra la desinformación?",
+                    "responses": [
+                        {
+                            "response": "Los gobiernos, instituciones y administraciones de cada país a través de los cuerpos y fuerzas de seguridad y la justicia.",
+                            "isTrue": false,
+                            "value": 1,
+                            "name": "question1",
+                            "feedback": "Los bulos, como tal, no son delitos, por ello, no es papel ni de la Policía de la Guardia Civil perseguirlos, solamente cuando a través de ellos se pueda acabar cometiendo un delito (una estafa, por ejemplo) es cuando se podrá aplicar el Código Penal."
+                        },
+                        {
+                            "response": "La empresas, herramientas y plataformas por donde se publican y viralizan las noticias falsas.",
+                            "isTrue": false,
+                            "value": 2,
+                            "name": "question1",
+                            "feedback": "Las grandes plataformas tecnológicas no son responsables del contenido que publican los usuarios en sus aplicaciones salvo que incumplan alguna de sus políticas de privacidad, pero sí deben crear nuevos sistemas y poner medios para vigilar la proliferación de contenidos y perfiles falsos en sus canales."
+                        },
+                        {
+                            "response": "Toda la ciudadanía.",
+                            "isTrue": true,
+                            "value": 3,
+                            "name": "question1",
+                            "feedback": "Es un deber de todos ayudar a no difundir bulos o desinformación en nuestros canales digitales y denunciar aquellos contenidos que puedan crear una alarma social; las plataformas, además, tienen que ser un ‘cortafuegos’ de las cadenas de bulos y la proliferación de perfiles falsos creados exclusivamente para la difusión de este tipo de contenido, especialmente en campañas estratégicamente diseñadas; y por último, las administraciones o instituciones deben y tienen que regular y legislar para proteger los datos, la privacidad, la intimidad y el honor del ciudadano, pero sin coartar nunca la libertad de expresión de cada persona."
+                        }
+                    ],
+                    "name": "question1"
+                }
+            }
+        ]
+    },
+    {
+        "title": "Bulos y desinformación: otro ‘virus’ del s. XXI",
+        "id": 6,
+        "className": "p-1",
+        "features": {
+            "allowAnnotation": true,
+            "allowHighlight": true
+        },
+        "children": [
+            {
+                "key": "1d21afbb-a5b0-4d83-b046-425edfc0fdf5",
+                "component": "Subtitle",
+                "props": {
+                    "position": "1/1/1/13",
+                    "text": "Fake News, de noticias falsas a verdaderas campañas de destrucción"
+                }
+            },
+            {
+                "key": "a4930bbe-f97d-4d49-9f5b-83a4d9f46b40",
+                "component": "MultiDiv",
+                "props": {
+                    "position": "2/1/2/7",
+                    "children": [
+                        {
+                            "type": "paragraph",
+                            "text": "<p>La tecnología es neutra. No es ni buena ni mala (o buena y mala a la vez). Todo va a depender del uso que hagamos de ella, pero, sobre todo, del objetivo que tengamos en cada momento para usar esa tecnología, cómo soluciona nuestros problemas, los de la sociedad, los del medio ambiente, los del planeta, y siempre en base a unos valores éticos.</p>"
+                        },
+                        {
+                            "type": "quote",
+                            "text": "<p>“El problema no es la tecnología, sino el mal uso que otro ser humano le pueda dar.” </p>",
+                            "author": "Jeff Jarvis"
+                        }
+                    ]
+                }
+            },
+            {
+                "key": "bde2c499-0ec7-4585-a9d7-2a628765b1b1",
+                "component": "FontImage",
+                "props": {
+                    "position": "2/7/2/13",
+                    "linkimage": "",
+                    "definition": "",
+                    "linkpage": "",
+                    "image": "public/img/COMUN4_Scorm1_Im3.jpg",
+                    "text": ""
+                }
+            }
+        ]
+    },
+    {
+        "title": "Bulos y desinformación: otro ‘virus’ del s. XXI",
+        "id": 7,
+        "className": "p-1",
+        "features": {
+            "allowAnnotation": true,
+            "allowHighlight": true
+        },
+        "children": [
+            {
+                "key": "61bb9986-4ff4-4777-aa47-a78561befefb",
+                "component": "MultiDiv",
+                "props": {
+                    "position": "1/1/1/13",
+                    "children": [
+                        {
+                            "type": "paragraph",
+                            "text": "¿Qué son las <i>Fake News</i>? ¿Cómo y dónde aparecen? ¿Cómo podemos detectarlas?<br><br>Cuando hablamos de <i>Fake News</i> o noticias falsas nos imaginamos el formato característico o habitual del ‘artículo’ de la prensa analógica o digital, pero sabemos que hoy día los ‘bulos’, que es como deberíamos denominar a este tipo de desinformación, pueden aparecer en forma de mensaje de WhastApp o Messenger, captura de pantalla, GIF, meme o DM…"
+                        }
+                    ]
+                }
+            },
+            {
+                "key": "0864ef03-57a7-4c8f-9479-852ed48dfb44",
+                "component": "VideoDownload",
+                "props": {
+                    "position": "2/1/2/13",
+                    "title": "Bulos y desinformación: otro ‘virus’ del s. XXI",
+                    "name": "apuntes_video_1",
+                    "pdfFileName": "apuntes_video_1",
+                    "videoUrl": "https://player.vimeo.com/video/443300220"
+                }
+            }
+        ]
+    },
+    {
+        "title": "Bulos y desinformación: otro ‘virus’ del s. XXI",
+        "id": 8,
+        "className": "p-1",
+        "children": [
+            {
+                "key": "be44ab75-cedf-4e5f-9e0c-a68d61d131d1",
+                "component": "Subtitle",
+                "props": {
+                    "position": "1/1/1/13",
+                    "text": "Las Fact-Checkers o Agencias verificadoras"
+                }
+            },
+            {
+                "key": "01103c64-b6ad-483d-9824-229dc4c445cf",
+                "component": "Paragraph",
+                "props": {
+                    "position": "2/1/2/13",
+                    "text": "<p>El <i>fact-checking</i> consiste en comprobar la autenticidad de las fuentes originales, contrastar y buscar fuentes alternativas, y la contextualización y revisión de la información de manera coordinada entre varios profesionales. Hoy día, prácticamente todos los medios de comunicación tienen un departamento propio de verificación para contrastar las noticias que llegan a su redacción, pero, además, existen iniciativas privadas, algunas promovidas por los propios medios de comunicación y otras pertenecientes a ONGs independientes. </p><p>Entre estos proyectos, destacan:</p>"
+                }
+            },
+            {
+                "key": "70bd3bf6-64af-4e84-8ffc-3d306d92f1da",
+                "component": "Table",
+                "props": {
+                    "position": "3/1/3/13",
+                    "children": [
+                        {
+                            "title": "Maldita.es",
+                            "text": [
+                                "<p>Portal pionero en verificación de noticias que ofrece servicios como <b>Maldita Hemeroteca</b> (que recupera noticias y declaraciones antiguas, sobre todo de políticos), <b>Maldito Bulo</b> (que desmiente los bulos virales más extendidos), Maldita Ciencia (especializado en bulos de ciencia y la salud) y <b>Maldito Dato</b> (centrado en desmentir datos falsos o mal usados).</p>"
+                            ]
+                        },
+                        {
+                            "title": "Newtral",
+                            "text": [
+                                "<p>Portal de verificación fundado por Ana Pastor, periodista de La Sexta. Realiza verificaciones de datos y declaraciones políticas. Cuenta con un número de WhatsApp para que los usuarios puedan contactar con ellos y pedirles que verifiquen posibles bulos.</p>"
+                            ]
+                        },
+                        {
+                            "title": "El Sabueso",
+                            "text": [
+                                "<p>El apartado de verificación de datos de Animal Político, un medio de comunicación digital mexicano que forma parte de la IFCN.</p>"
+                            ]
+                        },
+                        {
+                            "title": "África Check",
+                            "text": [
+                                "<p>El principal verificador de datos de África. Se trata de una organización de periodistas sin ánimo de lucro establecida en 2012 y que se dedica a desmentir informaciones no rigurosas sobre el continente.</p>"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "title": "Bulos y desinformación: otro ‘virus’ del s. XXI",
+        "id": 9,
+        "className": "p-1",
+        "features": {
+            "allowAnnotation": true,
+            "allowHighlight": true
+        },
+        "children": [
+            {
+                "key": "0844352f-dddb-4dfb-81d8-38f0cb54fcdd",
+                "component": "Subtitle",
+                "props": {
+                    "position": "1/1/1/13",
+                    "text": "¿Y quién verifica a las verificadoras?"
+                }
+            },
+            {
+                "key": "1a1d46f8-eaf6-4a38-869b-cfb5a5171f7e",
+                "component": "MultiDiv",
+                "props": {
+                    "position": "2/1/2/7",
+                    "children": [
+                        {
+                            "type": "paragraph",
+                            "text": "<p>En 2015, desde el Instituto de Periodismo Poynter, se creó el organismo <b>IFCN</b>, la <i>International Fact-Checking Network</i>, que aúna a las agencias de verificación de todo el mundo y que se encarga del correcto funcionamiento de todas ellas.</p>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "<p>Con el objetivo de distinguir a las agencias fiables de las agencias creadas por los partidos políticos y sus aliados, la IFCN redactó un código de principios que vio la luz en septiembre de 2016.  Actualmente lo siguen 82 agencias de 48 países distintos. En España existen 4 entidades firmantes de este código: AFP, EFE Verifica, Newtral y Maldita.es.</p>"
+                        }
+                    ]
+                }
+            },
+            {
+                "key": "8a21bdc1-9a3c-48d5-bf92-de9aca38bd8b",
+                "component": "FontImage",
+                "props": {
+                    "position": "2/7/2/13",
+                    "linkimage": "",
+                    "definition": "",
+                    "linkpage": "",
+                    "image": "public/img/COMUN4_Scorm1_Im5.png"
+                }
+            }
+        ]
+    },
+    {
+        "title": "Bulos y desinformación: otro ‘virus’ del s. XXI",
+        "id": 10,
+        "className": "p-1",
+        "features": {
+            "allowAnnotation": true,
+            "allowHighlight": true
+        },
+        "children": [
+            {
+                "key": "258f71e8-e64f-485d-afea-17a4c8fdd457",
+                "component": "Subtitle",
+                "props": {
+                    "position": "1/1/1/13",
+                    "text": "Los grandes casos: el triunfo de Donald Trump"
+                }
+            },
+            {
+                "key": "9e17ae59-1fe4-4049-aa3e-af3aefe838d9",
+                "component": "MultiDiv",
+                "props": {
+                    "position": "2/1/2/7",
+                    "children": [
+                        {
+                            "type": "paragraph",
+                            "text": "<p>Las elecciones de 2016 en EE.UU. fueron el primer ejemplo de cómo la manipulación en redes sociales, en Facebook exactamente, podía cambiar el curso de la historia.</p>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "<p>La campaña diseñada por Cambridge Analytica a favor de Trump y la creación de miles de noticias falsas contra Hillary Clinton por jóvenes desde un pueblo de Macedonia fueron decisivas en el triunfo.</p>"
+                        },
+                        {
+                            "type": "link",
+                            "text": "https://web.stanford.edu/~gentzkow/research/fakenews.pdf",
+                            "link": "https://web.stanford.edu/~gentzkow/research/fakenews.pdf"
+                        }
+                    ]
+                }
+            },
+            {
+                "key": "d32c1746-d3ab-4440-9a3f-105cd780e1f4",
+                "component": "FontImage",
+                "props": {
+                    "position": "2/7/2/13",
+                    "linkimage": "",
+                    "definition": "",
+                    "linkpage": "",
+                    "image": "public/img/COMUN4_Scorm1_Im6.jpg",
+                    "text": ""
+                }
+            }
+        ]
+    },
+    {
+        "title": "Bulos y desinformación: otro ‘virus’ del s. XXI",
+        "id": 11,
+        "className": "p-1",
+        "features": {
+            "allowAnnotation": true,
+            "allowHighlight": true
+        },
+        "children": [
+            {
+                "key": "04e35869-cb7d-4d08-bb26-3130dbc05ad0",
+                "component": "Subtitle",
+                "props": {
+                    "position": "1/1/1/13",
+                    "text": "Los grandes casos: los bots de México"
+                }
+            },
+            {
+                "key": "e2f414e2-1bbb-4feb-a7a7-6468ec3361b5",
+                "component": "MultiDiv",
+                "props": {
+                    "position": "2/7/2/13",
+                    "children": [
+                        {
+                            "type": "paragraph",
+                            "text": "<p>Ya desde el año 2012, expertos en redes y analistas comenzaron a denunciar la existencia de <i>bots</i> que creaban y difundían <i>fake news</i> financiados por el gobierno, dando lugar al término “peñabots” por el presidente Peña.</p>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "<p>Esta práctica siguió durante las elecciones de 2018, y no solo mediante la automatización de cuentas falsas, sino también con la contratación de perfiles jóvenes para la redacción de noticias y <i>Trending Topics</i> falsos.  </p>"
+                        },
+                        {
+                            "type": "link",
+                            "text": "https://medium.com/amnesty-insights/mexico-s-misinformation-wars-cb748ecb32e9",
+                            "link": "https://medium.com/amnesty-insights/mexico-s-misinformation-wars-cb748ecb32e9"
+                        }
+                    ]
+                }
+            },
+            {
+                "key": "00fa9f04-fbc5-4f5d-b015-c00b31b72ccd",
+                "component": "FontImage",
+                "props": {
+                    "position": "2/1/2/7",
+                    "linkimage": "",
+                    "definition": "",
+                    "linkpage": "https://m.notimerica.com/sociedad/noticia-anonymus-denuncia-penabots-eliminan-hastag-contra-pena-nieto-20141214031802.html",
+                    "image": "public/img/COMUN4_Scorm1_Im7.jpg",
+                    "text": "Recuperado de https://m.notimerica.com/sociedad/noticia-anonymus-denuncia-penabots-eliminan-hastag-contra-pena-nieto-20141214031802.html"
+                }
+            }
+        ]
+    },
+    {
+        "title": "Bulos y desinformación: otro ‘virus’ del s. XXI",
+        "id": 12,
+        "className": "p-1",
+        "features": {
+            "allowAnnotation": true,
+            "allowHighlight": true
+        },
+        "children": [
+            {
+                "key": "fdcb362c-3bb2-4ac6-ad1e-71882846d574",
+                "component": "Subtitle",
+                "props": {
+                    "position": "1/1/1/13",
+                    "text": "Los grandes casos: Brasil y Bolsonaro"
+                }
+            },
+            {
+                "key": "981cf931-af3e-4010-8445-00ed0fcadd62",
+                "component": "MultiDiv",
+                "props": {
+                    "position": "2/1/2/10",
+                    "children": [
+                        {
+                            "type": "paragraph",
+                            "text": "<p>Brasil es, después de Sudáfrica, el segundo país del mundo con el mayor uso de WhatsApp. El 76% de la población que usa teléfono móvil se comunica a través de esta app, y, por ello, fue el canal idóneo para diseñar una estrategia de desinformación para engañar a la ciudadanía y dar la victoria a Bolsonaro.</p>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "<p>Este no participó en debates televisivos, ni salió a la calle, ni realizó mitin alguno. Su campaña se realizó exclusivamente a través de voluntarios evangélicos desde el canal de mensajería, que se basó en la moral, la protección de la infancia y contra el aborto o la libertad sexual.</p>"
+                        },
+                        {
+                            "type": "link",
+                            "text": "https://brasil.elpais.com/brasil/2018/09/26/politica/1537998612_052780.html",
+                            "link": "https://brasil.elpais.com/brasil/2018/09/26/politica/1537998612_052780.html"
+                        }
+                    ]
+                }
+            },
+            {
+                "key": "dc17d20f-37e5-46e3-9255-00aba0d111ff",
+                "component": "FontImage",
+                "props": {
+                    "position": "2/10/2/13",
+                    "linkimage": "",
+                    "definition": "",
+                    "linkpage": "",
+                    "image": "public/img/COMUN4_Scorm1_Im8.jpg",
+                    "text": ""
+                }
+            }
+        ]
+    },
+    {
+        "title": "Bulos y desinformación: otro ‘virus’ del s. XXI",
+        "id": 13,
+        "className": "p-1",
+        "features": {
+            "allowAnnotation": true,
+            "allowHighlight": true
+        },
+        "children": [
+            {
+                "key": "fae3784b-ca87-4497-ae85-448131f3d13d",
+                "component": "Subtitle",
+                "props": {
+                    "position": "1/1/1/13",
+                    "text": "La Era de la Posverdad"
+                }
+            },
+            {
+                "key": "88e6ee40-316f-4d17-a49f-7da752916b6b",
+                "component": "MultiDiv",
+                "props": {
+                    "position": "2/1/2/7",
+                    "children": [
+                        {
+                            "type": "paragraph",
+                            "text": "<p>Al igual que los bulos o la desinformación no es algo nuevo de este siglo (ya se hablaba de ello de 1695 en el <i>Oxford English Dictionary</i>), la idea de ‘posverdad’, tampoco: a Goebbels le bastó con repetir mil veces una mentira para convertirla en verdad, pero lo que sí que es verdad es que es el término de moda de esta década. Hasta tal punto que fue la palabra del año en 2016.</p>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "<p>Su apogeo llegó con las estrategias electorales de Trump y del Brexit, donde se buscó apelar al sentimentalismo puro y duro y las emociones de los votantes, más que a la información real y veraz.</p>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "<p>Y en eso consiste este movimiento: alterar el relato y deshonrar a la verdad, mediante argucias y apelaciones emotivas.</p>"
+                        },
+                        {
+                            "type": "quote",
+                            "text": "<p>Posverdad:<br> f. Distorsión deliberada de una realidad, que manipula creencias y emociones con el fin de influir en la opinión pública y en actitudes sociales. Los demagogos son maestros de la posverdad.</p>",
+                            "author": "RAE, Real Academia Española"
+                        },
+                        {
+                            "type": "link",
+                            "text": "https://www.revista-uno.com/wp-content/uploads/2017/03/UNO_27.pdf",
+                            "link": "https://www.revista-uno.com/wp-content/uploads/2017/03/UNO_27.pdf"
+                        }
+                    ]
+                }
+            },
+            {
+                "key": "0ac10b5b-5a19-4a65-bfba-21b3c2d8efb9",
+                "component": "FontImage",
+                "props": {
+                    "position": "2/7/2/13",
+                    "linkimage": "",
+                    "definition": "",
+                    "linkpage": "",
+                    "image": "public/img/COMUN4_Scorm1_Im9.jpg",
+                    "text": ""
+                }
+            }
+        ]
+    },
+    {
+        "title": "Bulos y desinformación: otro ‘virus’ del s. XXI",
+        "id": 14,
+        "className": "p-1",
+        "features": {
+            "allowAnnotation": true,
+            "allowHighlight": true
+        },
+        "children": [
+            {
+                "key": "43ab27db-c361-4b19-a45d-9c62e72ec27e",
+                "component": "Subtitle",
+                "props": {
+                    "position": "1/1/1/13",
+                    "text": "El COVID 19 y la desinformación"
+                }
+            },
+            {
+                "key": "01661866-3195-4735-a2e2-d3efe3cd2c0d",
+                "component": "MultiDiv",
+                "props": {
+                    "position": "2/1/2/13",
+                    "children": [
+                        {
+                            "type": "paragraph",
+                            "text": "<p>El bulo que usa fotos manipuladas o de otras enfermedades para hablar de \"reacciones cutáneas a las mascarillas\".</p>"
+                        }
+                    ]
+                }
+            },
+            {
+                "key": "e833c85a-06c8-4777-a0ed-ef7603a0c499",
+                "component": "CarouselImage",
+                "props": {
+                    "position": "3/4/3/10",
+                    "images": [
+                        {
+                            "src": "public/img/COMUN4_Scorm1_Im10.png",
+                            "title": "Título de la image"
+                        },
+                        {
+                            "src": "public/img/COMUN4_Scorm1_Im11.png",
+                            "title": "Título de la image"
+                        },
+                        {
+                            "src": "public/img/COMUN4_Scorm1_Im12.png",
+                            "title": "Título de la image"
+                        },
+                        {
+                            "src": "public/img/COMUN4_Scorm1_Im13.png",
+                            "title": "Título de la image"
+                        },
+                        {
+                            "src": "public/img/COMUN4_Scorm1_Im14.png",
+                            "title": "Título de la image"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "title": "Bulos y desinformación: otro ‘virus’ del s. XXI",
+        "id": 15,
+        "className": "p-1",
+        "features": {
+            "allowAnnotation": true,
+            "allowHighlight": true
+        },
+        "children": [
+            {
+                "key": "880e3b35-ce0d-4278-8813-9656510d6b10",
+                "component": "Subtitle",
+                "props": {
+                    "position": "1/1/1/13",
+                    "text": "La inmigración, fuente de bulos"
+                }
+            },
+            {
+                "key": "cf3408eb-3100-4979-b6a9-b6684301a5ec",
+                "component": "MultiDiv",
+                "props": {
+                    "position": "2/1/2/7",
+                    "children": [
+                        {
+                            "type": "paragraph",
+                            "text": "<p>El Papa Francisco no pidió a las 'mujeres europeas' que se reprodujeran con 'inmigrantes musulmanes' para combatir la tasa de natalidad, como se lanzó.</p>"
+                        }
+                    ]
+                }
+            },
+            {
+                "key": "51975cf4-1440-4fd7-a5b6-447307af21c1",
+                "component": "FontImage",
+                "props": {
+                    "position": "2/7/2/13",
+                    "linkimage": "",
+                    "definition": "",
+                    "linkpage": "",
+                    "image": "public/img/COMUN4_Scorm1_Im15.png"
+                }
+            }
+        ]
+    },
+    {
+        "title": "Bulos y desinformación: otro ‘virus’ del s. XXI",
+        "id": 16,
+        "className": "p-1",
+        "features": {
+            "allowAnnotation": true,
+            "allowHighlight": true
+        },
+        "children": [
+            {
+                "key": "b135588b-71eb-409a-83f7-e629e282aa8e",
+                "component": "Subtitle",
+                "props": {
+                    "position": "1/1/1/13",
+                    "text": "Los bulos y los ciberdelitos"
+                }
+            },
+            {
+                "key": "12985705-0940-4c96-bbd4-9aa3ba7e99e9",
+                "component": "MultiDiv",
+                "props": {
+                    "position": "2/1/2/13",
+                    "children": [
+                        {
+                            "type": "paragraph",
+                            "text": "<p>Los delincuentes se hacen pasar por el servicio técnico de la aplicación (WhatsApp en este caso) para conseguir tu código personal e ingresar en tu cuenta. Es un caso de  <a data-glossary-id=\"4\"><i>phishing</i></a>.</p>"
+                        }
+                    ]
+                }
+            },
+            {
+                "key": "d0f3942f-6eab-440c-bbce-d33676f293f5",
+                "component": "FontImage",
+                "props": {
+                    "position": "3/1/3/7",
+                    "linkimage": "",
+                    "definition": "",
+                    "linkpage": "",
+                    "image": "public/img/COMUN4_Scorm1_Im17.png",
+                    "text": ""
+                }
+            },
+            {
+                "key": "06d0a1eb-d386-465e-ac63-cdcc4dfd6add",
+                "component": "FontImage",
+                "props": {
+                    "position": "3/7/3/13",
+                    "linkimage": "",
+                    "definition": "",
+                    "linkpage": "",
+                    "image": "public/img/COMUN4_Scorm1_Im16.png",
+                    "text": ""
+                }
+            }
+        ]
+    },
+    {
+        "title": "Bulos y desinformación: otro ‘virus’ del s. XXI",
+        "id": 17,
+        "className": "p-1",
+        "features": {
+            "allowAnnotation": true,
+            "allowHighlight": true
+        },
+        "children": [
+            {
+                "key": "144fbe3a-8d80-427f-82ad-5daaef0043e9",
+                "component": "Subtitle",
+                "props": {
+                    "position": "1/1/1/13",
+                    "text": "Recuerda: ¿Cómo saber si esa noticia es falsa?"
+                }
+            },
+            {
+                "key": "08414e32-8e45-4fe7-8aaa-70f6beddc8f5",
+                "component": "MultiDiv",
+                "props": {
+                    "position": "2/7/2/13",
+                    "children": [
+                        {
+                            "type": "paragraph",
+                            "text": "<p>Pasos que no debes olvidar a la hora de abrir o pinchar un contenido que te llega a través de internet:</p>"
+                        },
+                        {
+                            "type": "olist",
+                            "list": [
+                                "Quién lo publica: Identifica siempre la <b>fuente</b>. ¿Es una fuente fiable? ¿Conocida?",
+                                "No leas solo el <b>titular</b>. ¿De qué habla el texto completo?",
+                                "Cuidado con los <b>memes</b> o <b>vídeos de humor</b>. ¿Puede ser una broma? ¿Procede de una web de sátira o humor?",
+                                "Huye de los <b>pantallazos</b>, <b>citas</b> o <b>mensajes reenviados por Whatsapp</b> sin fuente o link. No sabemos de qué fecha son, pueden ser cosas verídicas, pero de hace años o de otros lugares…",
+                                "Cuidado con las grandes <b>ofertas</b>, productos <b>gratis</b>, <b>trucos</b> mágicos…"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "key": "2e6c38a5-ade7-481e-ad9f-ebcfe0c9fdba",
+                "component": "FontImage",
+                "props": {
+                    "position": "2/1/2/7",
+                    "linkimage": "",
+                    "definition": "",
+                    "linkpage": "",
+                    "image": "public/img/COMUN4_Scorm1_Im18.jpg",
+                    "text": ""
+                }
+            }
+        ]
+    },
+    {
+        "title": "Evaluación",
+        "id": 18,
+        "className": "p-1",
+        "children": [
+            {
+                "key": "0875359d-6855-4692-918d-a326dc6842fa",
+                "component": "Evaluation",
+                "props": {
+                    "position": "1/1/1/13",
+                    "intro": "A continuación debes realizar la evaluación de esta unidad de la siguiente forma:",
+                    "details": [
+                        "La evaluación consta de 5 preguntas con 4 respuestas posibles de las cuales podrán ser correctas una o varias.",
+                        "En el enunciado de las preguntas se advierte si tienen varias respuestas posibles.",
+                        "Se dispone de dos intentos como máximo para realizar la evaluación, aunque estos intentos se pueden realizar en sesiones de acceso diferentes.",
+                        "Para enviar los resultados será necesario contestar a todas las preguntas, en caso contrario el botón enviar no estará habilitado.",
+                        "Para superar la evaluación será necesario acertar más del 50% de la prueba."
+                    ],
+                    "maxScore": 100,
+                    "attempts": 2,
+                    "children": [
+                        {
+                            "enunciate": "¿En qué consiste el fact-cheking? ",
+                            "key": "1dc80223-59f8-47ea-8a7c-74bb713b1621",
+                            "relatedTo": {
+                                "index": 2,
+                                "title": ""
+                            },
+                            "maxScore": 0,
+                            "questions": [
+                                {
+                                    "response": "a)  Comprobar la autenticidad de las fuentes originales, contrastar y buscar fuentes alternativas, para evitar la desinformación. ",
+                                    "key": "722fd154-0ac3-4fe6-b2f0-cd3b1dff742d",
+                                    "isTrue": true,
+                                    "puntuation": 1
+                                },
+                                {
+                                    "response": "b) Verificar si una noticia es falsa o no y borrarla de las plataformas digitales, canales de mensajería instantánea, mails y resto de internet. ",
+                                    "key": "a3fd7deb-6f84-44f8-ade1-ea831864ba5a",
+                                    "isTrue": false,
+                                    "puntuation": 0
+                                },
+                                {
+                                    "response": "c)  La creación de un departamento de verificación por parte del Estado para evitar las Fake News o Bulos en Internet. ",
+                                    "key": "c3bb3681-35a8-4780-8401-d28bcb0aace9",
+                                    "isTrue": false,
+                                    "puntuation": 0
+                                },
+                                {
+                                    "response": "d) Todas son correctas. ",
+                                    "key": "20ade746-5986-4bbb-baa8-299799b05d7e",
+                                    "isTrue": false,
+                                    "puntuation": 0
+                                }
+                            ]
+                        },
+                        {
+                            "enunciate": "En una sentencia de 2014 el Tribunal de Justicia de la Unión Europea declaró que ciertas personas tienen derecho a solicitar a los motores de búsqueda que se retiren contenidos que hagan referencia a ellas. A esto se conoce como: ",
+                            "key": "ef2cface-157c-4e3b-b22c-f9df50f7211e",
+                            "relatedTo": {
+                                "index": 2,
+                                "title": ""
+                            },
+                            "maxScore": 0,
+                            "questions": [
+                                {
+                                    "response": "a)  Derecho al Honor. ",
+                                    "key": "3730f49f-910c-423c-874b-6e0ec0254a4a",
+                                    "isTrue": false,
+                                    "puntuation": 0
+                                },
+                                {
+                                    "response": "b)  Derecho al Olvido. ",
+                                    "key": "dbcfcfb7-e867-4123-8773-048b8dc2d75a",
+                                    "isTrue": true,
+                                    "puntuation": 1
+                                },
+                                {
+                                    "response": "c)  Derecho de la Dignidad. ",
+                                    "key": "c63d2e1c-44ce-4205-808e-90b75cc38688",
+                                    "isTrue": false,
+                                    "puntuation": 0
+                                },
+                                {
+                                    "response": "d)  Derecho de Borrado.",
+                                    "key": "5bcc3f4c-bf0b-4c84-aa62-9328e5af7059",
+                                    "isTrue": false,
+                                    "puntuation": 0
+                                }
+                            ]
+                        },
+                        {
+                            "enunciate": "¿Qué objetivos tienen las Fake News? ",
+                            "key": "88a930dd-0744-4b7b-ba9b-62714486201f",
+                            "relatedTo": {
+                                "index": 2,
+                                "title": ""
+                            },
+                            "maxScore": 0,
+                            "questions": [
+                                {
+                                    "response": "a) Acabar con la Reputación Digital de políticos, empresarios, personajes famosos, etc. ",
+                                    "key": "0054301b-cc2c-4bc9-9a7f-5af8e5b415d3",
+                                    "isTrue": false,
+                                    "puntuation": 0
+                                },
+                                {
+                                    "response": "b) Desde fomentar el odio contra minorías o colectivos vulnerables, crear alarma social, a ganar dinero a través del clickbaiting. ",
+                                    "key": "5e742667-c45d-4088-baa9-c6c186f29a5f",
+                                    "isTrue": true,
+                                    "puntuation": 1
+                                },
+                                {
+                                    "response": "c) Crear campañas de desinformación en redes sociales para ganar elecciones políticas. ",
+                                    "key": "7a6bd1c1-072b-460e-a2e6-1230d585639e",
+                                    "isTrue": false,
+                                    "puntuation": 0
+                                },
+                                {
+                                    "response": "d) Ninguna de ellas es correcta. ",
+                                    "key": "b8ee7163-1610-4215-b027-78070999ca37",
+                                    "isTrue": false,
+                                    "puntuation": 0
+                                }
+                            ]
+                        },
+                        {
+                            "enunciate": "Cuando manipulamos o distorsionamos intencionadamente la realidad, para influir en la opinión pública, hablamos de: ",
+                            "key": "b3db6533-796d-4159-9aca-5c572b9d7fec",
+                            "relatedTo": {
+                                "index": 2,
+                                "title": ""
+                            },
+                            "maxScore": 0,
+                            "questions": [
+                                {
+                                    "response": "a) Cluetrain. ",
+                                    "key": "9324ecd2-7629-49c5-a435-36730a0c009d",
+                                    "isTrue": false,
+                                    "puntuation": 0
+                                },
+                                {
+                                    "response": "b) Wikileaks. ",
+                                    "key": "9e8d6144-820a-4f9b-87bc-eabe52174f63",
+                                    "isTrue": false,
+                                    "puntuation": 0
+                                },
+                                {
+                                    "response": "c) Ciberperiodismo. ",
+                                    "key": "8d198938-8f94-401d-9b32-c1f4d9b62671",
+                                    "isTrue": false,
+                                    "puntuation": 0
+                                },
+                                {
+                                    "response": "d) Posverdad. ",
+                                    "key": "47fd4f81-8c38-4f53-a1e9-da924247baf8",
+                                    "isTrue": true,
+                                    "puntuation": 1
+                                }
+                            ]
+                        },
+                        {
+                            "enunciate": "Lanzar bulos o desinformación puede causarnos una sanción o pena tanto civil como penal: ",
+                            "key": "4338994b-12cd-4f93-aab3-669dadde0066",
+                            "relatedTo": {
+                                "index": 2,
+                                "title": ""
+                            },
+                            "maxScore": 0,
+                            "questions": [
+                                {
+                                    "response": "a) Sí, porque las Fake News ya están tipificadas en el Código español. ",
+                                    "key": "7347095a-eeb4-409c-aff3-110fc50e304b",
+                                    "isTrue": false,
+                                    "puntuation": 0
+                                },
+                                {
+                                    "response": "b) Mentir o lanzar bulos no es un acto delictivo, siempre que no sea un medio utilizado para un fin ilícito, como las estafas o extorsión. ",
+                                    "key": "98d4abd9-a0d1-431a-9c71-8a9c1eca5159",
+                                    "isTrue": true,
+                                    "puntuation": 1
+                                },
+                                {
+                                    "response": "c) No, nunca. ",
+                                    "key": "62976b4f-d5ef-4691-8530-57162951b98e",
+                                    "isTrue": false,
+                                    "puntuation": 0
+                                },
+                                {
+                                    "response": "d) Siempre que se considere que sean Delito de Odio. ",
+                                    "key": "c55cc270-d32c-4b8a-b7ff-cbcaf49a5ada",
+                                    "isTrue": false,
+                                    "puntuation": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "title": "Glosario",
+        "id": 19,
+        "className": "p-1",
+        "children": [
+            {
+                "key": "8f3ccc5f-56c7-42f4-8d5b-12a371bf7bf4",
+                "component": "Glossary",
+                "props": {
+                    "position": "1/1/1/13",
+                    "children": [
+                        {
+                            "title": "Clickbait,",
+                            "id": 1,
+                            "text": "El clickbait es una conocida (y demasiado usada) táctica de copywriting que busca generar clicks o ingresos a través de títulos demasiado sensacionalistas. Este término se lleva usando ya casi una década, aunque ha explotado en los últimos 3 años con la popularidad de sitios como Buzzfeed, los auténticos maestros del clibkbait, entre otros muchos."
+                        },
+                        {
+                            "title": "Fact-checking,",
+                            "id": 2,
+                            "text": "Es la verificación de hechos o verificación de datos."
+                        },
+                        {
+                            "title": "Infoxicación,",
+                            "id": 3,
+                            "text": "Se trata de la sobrecarga o exceso de información provocada por la profusión de contenidos en Internet. Normalmente, una persona que ha vivido la infoxicación en primera persona es aquella que ha sentido agobio, parálisis o desconcierto ante una cantidad o volumen alto de información. ,"
+                        },
+                        {
+                            "title": "Phising,",
+                            "id": 4,
+                            "text": "Phishing es el delito de estafar y obtener información confidencial de forma fraudulenta como puede ser una contraseña o información detallada sobre tarjetas de crédito u otra información bancaria de la victima.<br>El estafador, conocido como phisher, se vale de técnicas de ingeniería social, haciéndose pasar por una persona o empresa de confianza en una aparente comunicación oficial electrónica, por lo general un correo electrónico, o algún sistema de mensajería instantánea, redes sociales SMS/MMS."
+                        },
+                        {
+                            "title": "Spam,",
+                            "id": 5,
+                            "text": "Es la denominación del correo electrónico no solicitado que recibe una persona. Dichos mensajes, también llamados correo no deseado o correo basura, suelen ser publicidades de toda clase de productos y servicios."
+                        },
+                        {
+                            "title": "Tecnofobia'",
+                            "id": 6,
+                            "text": "La tecnofobia es el miedo o aversión hacia las nuevas tecnologías o dispositivos complejos, especialmente ordenadores. Larry Rosen, psicólogo e investigador de la Universidad de California, estableció tres subtipos de tecnofóbicos:<br>Tecnofóbicos cognitivos: usan las nuevas tecnologías con temor y miedo, porque sienten que no están formados para usarlas.<br>Tecnofóbicos incómodos: no dominan las nuevas tecnologías, las utilizan pero sienten cierta incomodidad.<br>Tecnofóbicos ansiosos: el subtipo más patológico. Se experimenta un temor irracional cuando se usan las nuevas tecnologías."
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "title": "Enlaces de interés",
+        "id": 20,
+        "className": "p-1",
+        "children": [
+            {
+                "key": "24d3d2a0-4508-4030-b3e2-99dc1fdc1d77",
+                "component": "InterestingLinks",
+                "props": {
+                    "position": "1/1/1/13",
+                    "children": [
+                        {
+                            "title": "Maldita",
+                            "text": "Portal pionero en verificación de noticias que ofrece servicios como Maldita Hemeroteca (que recupera noticias y declaraciones antiguas, sobre todo de políticos), Maldito Bulo (que desmiente los bulos virales más extendidos), Maldita Ciencia (especializado en bulos de ciencia y la salud) y Maldito Dato (centrado en desmentir datos falsos o mal usados). Detrás del portal está un equipo de jóvenes periodistas que forman parte de la red mundial <i>International Fact Checking Network</i>. Entre otros servicios interesantes, han creado una extensión para navegadores de Internet que te avisa si estás viendo noticias falsas.",
+                            "link": "https://www.maldita.es"
+                        },
+                        {
+                            "title": "Newtral",
+                            "text": "Portal de verificación fundado por Ana Pastor, periodista de La Sexta. Realiza verificaciones de datos y declaraciones políticas. Cuenta con un número de WhatsApp para que los usuarios puedan contactar con ellos y pedirles que verifiquen posibles bulos. Newtral realiza <i>fact-checking</i> en directo de las sesiones del Congreso y de las comparecencias públicas de miembros del Gobierno a través de Twitter. Recientemente ha anunciado que ha sido contratado por Facebook como <i>fact-checkers</i> en España.",
+                            "link": "https://www.newtral.es"
+                        },
+                        {
+                            "title": "Salud sin bulos",
+                            "text": "Esta plataforma nació en 2018 para ofrecer información sanitaria veraz y está impulsada por asociaciones científicas, de profesionales, de pacientes y de comunicadores especializados. Su propósito es combatir las noticias falsas relacionadas con la salud, que pueden llegar a tener graves consecuencias para la población. Por ejemplo, en Estados Unidos la campaña contra las vacunas basada en informaciones falsas que las relacionan con el autismo ha provocado la reaparición de enfermedades que ya estaban prácticamente erradicadas, como el sarampión.",
+                            "link": "https://www.saludsinbulos.com"
+                        },
+                        {
+                            "title": "Fact Check Explorer",
+                            "text": "Google es una de las empresas tecnológicas que está luchando más decididamente contra las noticias falsas. En colaboración con diversas entidades de verificación de noticias, ha puesto en marcha Fact Check Explorer, un buscador que permite comprobar la veracidad de una información. Basta con introducir una palabra clave para acceder a resultados de sitios de <i>fact checking</i>. Aunque de momento la herramienta está en inglés, sí incluye resultados en español. Al parecer, con el tiempo la idea es incorporar el <i>fact checking</i> a las búsquedas de su motor.",
+                            "link": "https://toolbox.google.com/factcheck/explorer"
+                        },
+                        {
+                            "title": "AFP Factual",
+                            "text": "Junto con los medios de comunicación, las agencias de noticias son otro de los grandes perjudicados por las <i>fake news</i>. Con objeto de combatirlas, en 2018 se puso en marcha AFP Factual. Se trata de un portal gestionado por periodistas de la agencia AFP en Latinoamérica que se dedican a revisar y contrastar las noticias virales que circulan en sus países. A diferencia de otras plataformas, no se centran tanto en las declaraciones de los políticos, sino que su especialidad son los típicos bulos que se difunden por WhatsApp y otras redes sociales.",
+                            "link": "https://factual.afp.com"
+                        },
+                        {
+                            "title": "Chequeado",
+                            "text": "Los países de América del Sur tampoco escapan a la nefasta influencia de las <i>fake news</i>, que tuvieron por ejemplo un papel importante en las últimas elecciones presidenciales en Brasil. Para combatirlas se creó Chequeado, un portal de <i>fact checking</i> nacido en Argentina que presta servicio a 20 medios de 14 países de la región como Colombia, Brasil, México, Perú, etc. La iniciativa ha recibido numerosos premios y cuenta con un amplio equipo de periodistas y editores de varios países, que se financian con los donativos de los usuarios y las aportaciones de los medios de comunicación a los que proporcionan sus servicios de verificación de noticias.",
+                            "link": "https://chequeado.com/acerca-de-chequeado/"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "title": "Bibliografía",
+        "id": 21,
+        "className": "p-1",
+        "children": [
+            {
+                "key": "05e4ad93-3762-43f4-a476-e2e561336d9b",
+                "component": "Bibliography",
+                "props": {
+                    "position": "1/1/1/13",
+                    "children": [
+                        "Amorós García, M. (2018). <i>Fake News, la verdad de las noticias falsas</i>. Barcelona. Plataforma Editorial.",
+                        "Llaneza, P. (2019). <i>Datanomics</i>. Barcelona. Editorial Planeta.",
+                        "Magallón, R. (2019). <i>UnfakingNews. Cómo combatir la desinformación</i>. Editorial Pirámide.",
+                        "Magallón, R. (2020). <i>Desinformación y pandemia</i>. Editorial Pirámide.",
+                        "Peirano, M. (2019). <i>El enemigo conoce el sistema</i>. Barcelona. Editorial Debate.",
+                        "Taboada, L. (2015). <i>#Hiperconectados</i>. Barcelona. Editorial Planeta.",
+                        "VV. AA. (2019). <i>#FakeYou. Un proyecto dirigido por Simona Levi</i>. Barcelona. Editorial Rayo Verde."
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "title": "Valoración",
+        "id": 22,
+        "className": "p-1",
+        "children": [
+            {
+                "key": "5e47b377-0e8a-47f2-aa56-73b7be8b3389",
+                "component": "Valoration",
+                "props": {
+                    "position": "1/1/1/13",
+                    "stars": 5,
+                    "title": "Coméntanos qué mejorarías",
+                    "placeholder": "Escriba aquí sus comentarios"
+                }
+            }
+        ]
+    },
+    {
+        "title": "Créditos",
+        "id": 23,
+        "className": "p-1",
+        "children": [
+            {
+                "key": "65fe43fb-d027-45f2-ad87-40a1a470a7da",
+                "component": "Credits",
+                "props": {
+                    "position": "1/1/1/13"
+                }
+            }
+        ]
+    }
+]

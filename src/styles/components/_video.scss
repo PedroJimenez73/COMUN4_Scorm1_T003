@@ -1,0 +1,39 @@
+.video{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    align-self: stretch;
+    &__container {
+        .text{
+            @include lateral-padding;
+        }
+        .subtitle{
+            @include title-padding;
+        }
+    }
+}
+
+.video-download-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    @media only screen and (orientation: portrait){
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: $from-tablet){
+    .video{
+        width:640px;
+        height:360px;
+        max-width: 100%;
+        margin: 30px auto auto;
+    }
+    .flex{
+        .question__container--video{
+            min-width: 40%;
+        }
+    }
+   
+}

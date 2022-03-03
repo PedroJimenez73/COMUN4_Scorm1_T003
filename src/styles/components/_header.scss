@@ -1,0 +1,78 @@
+.header__container{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+    background-color: $background-color;
+    box-shadow: $shadow;
+    @include general-padding;
+}
+
+.hamburger__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu__title{
+    display: none;
+    @include main-title;
+}
+
+.logo{
+    height: 40px;
+}
+
+#hamburger{
+    margin-right: 30px;
+}
+
+.hamburger__first-bar, .hamburger__second-bar, .hamburger__third-bar {
+    display: block;
+    width: 33px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: $main-color;
+    margin-bottom: 7px;
+    position: relative;
+    z-index: 1;
+    transform-origin: 4px 0px;
+    transition: transform 1s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 1s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 1s ease;
+}
+
+
+.hamburger__first-bar--closed{
+    transform-origin: 0% 0%;
+    transform:  rotate(45deg);
+}
+
+.hamburger__second-bar--closed{
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+.hamburger__third-bar--closed{
+    transform-origin: 0% 100%;
+    transform: rotate(-45deg);
+}
+
+@media (min-width: $from-tablet){
+    .header__container{
+
+    }
+    .menu__title{
+        display: block;
+    }
+    .logo{
+        height: 50px;
+    }
+}
+

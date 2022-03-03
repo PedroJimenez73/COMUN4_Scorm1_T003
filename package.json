@@ -1,0 +1,55 @@
+{
+  "homepage": "./",
+  "name": "scorm-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.1",
+    "@testing-library/user-event": "^12.2.0",
+    "beautiful-react-diagrams": "^0.5.1",
+    "bootstrap": "^4.5.3",
+    "dotenv": "^10.0.0",
+    "g": "^2.0.1",
+    "html-react-parser": "^1.4.4",
+    "jquery": "^3.6.0",
+    "jspdf": "^2.3.1",
+    "jwt-decode": "^3.1.2",
+    "node-sass": "^4.14.1",
+    "pipwerks-scorm-api-wrapper": "^0.1.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scorm-provider": "^0.2.4",
+    "react-scripts": "4.0.0",
+    "reactstrap": "^8.7.1",
+    "styled-components": "^5.3.0",
+    "underscore": "^1.13.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "node_modules/react-scripts/bin/react-scripts.js start",
+    "build": "node_modules/react-scripts/bin/react-scripts.js build",
+    "test": "node_modules/react-scripts/bin/react-scripts.js test src/App.test.js",
+    "test-prod": "node_modules/react-scripts/bin/react-scripts.js test src/App.prod.test.js",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

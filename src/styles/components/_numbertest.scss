@@ -1,0 +1,30 @@
+.form-numbertest__container{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+    .numbertest__range{
+        width: 180px;
+        span{
+            font-size: 15px;
+            color: grey;
+            margin: 0px 5px;
+        }
+    }
+}
+
+@media (min-width: $from-tablet){
+    .form-numbertest__container{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        .form-numbertest{
+            .numbertest__range{
+                width: 180px;
+                margin: 0px 0px 0px 5px;
+            }
+        }
+    }
+    
+}
